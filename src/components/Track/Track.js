@@ -3,7 +3,12 @@ import React, { useCallback } from "react";
 import "./styles.css";
 
 const Track = (props) => {
-    const addTrack = useCallback(
+
+    return (
+        <h3>Track</h3>
+    );
+   /*
+   const addTrack = useCallback(
         (event) => {
             props.onAdd(props.track);
         },
@@ -43,6 +48,7 @@ const Track = (props) => {
             {renderAction()}
         </div>
     );
+    */
 };
 
 export default Track;

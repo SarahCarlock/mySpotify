@@ -1,17 +1,27 @@
-import React, { useState, useCallback } from "react";
+import React, { useState } from "react";
 
 import "./styles.css";
 import Track from "../Track/Track";
 
 
-function Tracklist(props) {
+const Tracklist = (props) => {
+    const [list, setList] = useState([]);
+
+    const deleteTrack = (props) => {
+        const updateList = list.map((props) => props !== props);
+        setList(updateList);
+    }
+
+    const addTrack = (props) => {
+        setList((prevList) => [...prevList, props]);
+    };
+
     return (
         <div>
-            {props.}
             <h3>Search Results</h3>
-                <p>{SearchResults}</p>
+
         </div>
-    )
+    );
 };
 
 export default Tracklist;
