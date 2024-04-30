@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Tracklist from './components/Tracklist/Tracklist';
+import Playlist from './components/Playlist/Playlist';
 
 function App() {
 
@@ -10,11 +11,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <Tracklist/>
+          <Tracklist />
+          <Playlist />
         </p>
-        <a>
+        <p>
           Work in Progress
-        </a>
+        </p>
       </header>
     </div>
   );
