@@ -3,13 +3,21 @@ import React from "react";
 import "./styles.css";
 import Track from "../Track/Track";
 
-
-const Tracklist = ({ tracks }) => {
-    <div className="tracklist">
-        {tracks.map(track => (
-            <Track key={track.id} name={track.name} artist={track.artist} album={track.album} />
-        ))}
-    </div>
+const tracks = [
+{ id: 1, name: "Shape of You", artist: "Ed Sheeran", album: "÷ (Divide)" },
+{ id: 2, name: "Blinding Lights", artist: "The Weeknd", album: "After Hours" },
+{ id: 3, name: "Dance Monkey", artist: "Tones and I", album: "The Kids Are Coming" },
+{ id: 4, name: "Someone Like You", artist: "Adele", album: "21" },
+{ id: 5, name: "Believer", artist: "Imagine Dragons", album: "Evolve" }
+];
+const Tracklist = () => {
+    return (
+        <div className="tracklist">
+            {tracks.map(track => (
+                <Track key={track.id} name={track.name} artist={track.artist} album={track.album} />
+            ))}
+        </div>
+    );
 };
 
 export default Tracklist;
