@@ -1,7 +1,13 @@
-/*
+import React from "react";
+
+import Tracklist from "../Tracklist/Tracklist";
+import './styles-searchresults.css'
+
 function SearchResults() {
-    [1,2,3,4];
+    return (
+        <div className="searchresults">
+            <Tracklist Tracklist={Tracklist} />
+        </div>
+    );
 };
 export default SearchResults;
-
-import SearchResults from "../SearchResults/SearchResults"; */

@@ -1,10 +1,10 @@
 import React from "react";
 import Tracklist from "../Tracklist/Tracklist";
-import "./styles.css";
+import "./styles-playlist.css";
 
 const Playlist = () => {
     return (
-        <div>
+        <div className="playlist">
           <h2>My Playlist</h2>
           <Tracklist/>
         </div>

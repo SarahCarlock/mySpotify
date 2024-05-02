@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./styles.css";
+import "./styles-tracklist.css";
 import Track from "../Track/Track";
 
 const tracks = [
@@ -13,6 +13,7 @@ const tracks = [
 const Tracklist = () => {
     return (
         <div className="tracklist">
+            Does this show?
             {tracks.map(track => (
                 <Track key={track.id} name={track.name} artist={track.artist} album={track.album} />
             ))}

@@ -1,0 +1,7 @@
+.searchresults {
+    float: left;
+    width: 30%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    margin: 10px;
+}

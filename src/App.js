@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Playlist from './components/Playlist/Playlist';
+import SearchResults from './components/SearchResults/SearchResults';
 
 function App() {
 
@@ -9,9 +10,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+          <SearchResults />
           <Playlist />
-        </p>
         <p>
           Work in Progress
         </p>
