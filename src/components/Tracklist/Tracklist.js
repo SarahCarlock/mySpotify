@@ -13,7 +13,7 @@ const tracks = [
 const Tracklist = () => {
     return (
         <div className="tracklist">
-            Does this show?
+            Tracklist
             {tracks.map(track => (
                 <Track key={track.id} name={track.name} artist={track.artist} album={track.album} />
             ))}

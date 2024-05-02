@@ -6,6 +6,7 @@ import './styles-searchresults.css'
 function SearchResults() {
     return (
         <div className="searchresults">
+            SearchResults
             <Tracklist Tracklist={Tracklist} />
         </div>
     );

@@ -1,5 +1,5 @@
 .playlist {
-    float: right;
+    align-self: flex-end;
     width: 30%;
     border: 3px solid #21ad8f;
     padding: 10px;
