@@ -9,11 +9,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <div className='information'>
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            mySpotify
+          </p>
+        </div>
         <SearchResults />
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Work in Progress
-        </p>
         <Playlist />
       </header>
     </div>
