@@ -5,7 +5,7 @@ import "./styles-playlist.css";
 const Playlist = () => {
     return (
         <div className="playlist">
-          <h2>My Playlist</h2>
+          <h3>My Playlist.js</h3>
           <Tracklist/>
         </div>
       );

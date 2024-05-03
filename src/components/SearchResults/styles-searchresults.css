@@ -1,6 +1,13 @@
 .searchresults {
-    align-self: flex-start;
-    width: 30%;
-    border: 3px solid #73AD21;
-    padding: 10px;
+    align-self: center;
+    max-height: 75vh;
+    overflow: scroll;
+    width: 20rem;
+    border: .3rem solid #73AD21;
+    padding: 1rem;
+}
+
+h3 {
+    position: fixed;
+    top: 1.5rem;
 }
