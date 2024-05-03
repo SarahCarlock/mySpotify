@@ -11,6 +11,7 @@ const tracks = [
 { id: 5, name: "Believer", artist: "Imagine Dragons", album: "Evolve" }
 ];
 const Tracklist = () => {
+    
     return (
         <div className="tracklist">
             <h4>Tracklist.js</h4>
@@ -22,32 +23,3 @@ const Tracklist = () => {
 };
 
 export default Tracklist;
-
-
-
-/*
-    const [list, setList] = useState([]);
-
-
-    const deleteTrack = (trackId) => {
-        const updateList = list.filter((track => track.id !== trackId));
-        setList(updateList);
-    }
-
-    const addTrack = (trackId) => {
-            setList((prevList) => [...prevList, trackId]);
-    };
-
-    return (
-        <div>
-            <h3>Search Results</h3>
-                {list.map((track) => (
-                    <div key={track.id}>
-                        < Track name={track.name} artist={track.artist} album={track.album} />
-                        <button onClick={() => addTrack(track.id)}>Add Track</button>
-                        <button onClick={() => deleteTrack(track.id)}>Delete Track</button>
-                    </div>
-                ))}
-        </div>
-    );
-    */
