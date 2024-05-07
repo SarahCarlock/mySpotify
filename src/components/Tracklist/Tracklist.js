@@ -16,7 +16,7 @@ const Tracklist = () => {
         <div className="tracklist">
             <h4>Tracklist.js</h4>
             {tracks.map(track => (
-                <Track key={track.id} name={track.name} artist={track.artist} album={track.album} />
+                <Track track={track} key={track.id} name={track.name} artist={track.artist} album={track.album} />
             ))}
         </div>
     );

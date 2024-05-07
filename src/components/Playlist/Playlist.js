@@ -7,6 +7,7 @@ const Playlist = () => {
         <div className="playlist">
           <h3>My Playlist.js</h3>
           <Tracklist/>
+          <button>Save to Spotify</button>
         </div>
       );
 };
